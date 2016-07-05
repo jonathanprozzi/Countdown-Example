@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Countdown to [???]</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!-- bootstrap for the main page style -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <section class="page-header">
+                <div class="jumbotron" id="jumbo-main">
+                    <h1 class="h1">Countdown to <span id="head-questions">[???]</span></h1>
+                    <p class="lead">This is a fun project where you can have the viewer specify an amount of time to count-down (within reason!) and then it's up to you to ... make ... something ... happen!
+                    <br/>
+                    Some ideas are to have several elements appear, change the colors of the page, add images, etc. Basically, the requirement is to have some sort of *new* things happen once the timer hits 0.</p>
+                </div> <!-- end header-elements div -->
+            </section> <!-- end header-content section -->
+        </div> <!-- end container div -->
+    </header>
+    
+    <div class="container">
+        <section class="main-content">
+            <div class="well lead" id="status-display">Status: <span id="stat-span"></span></div>   
+            <div class="well sub-content">
+                <input type="range" id="input-range" min="1" max="30" value="15" class="lead">Countdown time: [<span id="sec-value"></span> seconds]</input>
+                <button class="btn btn-default" id="engager">Engage!</button>
+               <!-- <div class="well" class="lead" id="div-value"></div> -->
+            </div> <!-- end sub-content div -->
+        </section> <!-- end main-content section -->
+    </div> <!-- end container div -->   
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
