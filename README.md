@@ -3,6 +3,8 @@ This is a project template/basic example to be used for the capstone project.
 
 The main concept is to use a timer (or timers!) to create/modify/add elements or change styles on a page.
 
+Check out the live version here: https://jonathanprozzi.github.io/Countdown-Example/
+
 # Project Ideas:
 If you're having trouble thinking of your own idea, here are some suggestions for inspiration.
 * Remove or add page content once the timer hits a certain point.
